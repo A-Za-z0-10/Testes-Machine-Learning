@@ -1,0 +1,68 @@
+<html style="background-image: url('../static/img/bg.png')">
+	<header>
+		<title>Report Send | Digital Campinas</title>
+
+		<!-- REFRESH TIME -->
+    	<meta http-equiv="refresh" content="10; url=/">
+
+		<!-- MAIN CSS -->
+		<link rel="stylesheet" href="../static/styles/main/toolbar.css">
+
+		<!-- ONLY IN THIS PAGE -->
+		<link rel="stylesheet" href="../static/styles/report.css">
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="icon" href="static/img/favicon.png">
+		<link rel="stylesheet" href="../static/styles/angular-material.css">
+		<link rel="stylesheet" href="../static/styles/__main__.css">
+		<link rel="stylesheet" href="../static/styles/docs.css">
+		<link rel="stylesheet" href="../static/styles/roboto.css">
+
+		<script src="../static/scripts/framework/angular.js"></script>
+		<script src="../static/scripts/framework/angular-animate.min.js"></script>
+		<script src="../static/scripts/framework/angular-route.min.js"></script>
+		<script src="../static/scripts/framework/angular-aria.min.js"></script>
+		<script src="../static/scripts/framework/angular-messages.min.js"></script>
+		<script src="../static/scripts/framework/svg-assets-cache.js"></script>
+		<script src="../static/scripts/framework/angular-material.min.js"></script>
+		<script src="../static/scripts/framework/d3.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src='../static/scripts/app.js'></script>
+		<script type="text/javascript" src='../static/scripts/services/dataService.js'></script>
+		<script type="text/javascript" src='../static/scripts/controllers/ctrlMain_report.js'></script>
+		<script type="text/javascript" src="../static/scripts/loader.js"></script>
+		<script type="text/javascript" src="../static/scripts/jquery.1.10.2.min.js"></script>
+		<script type="text/javascript" src="../static/scripts/gnmenu.js"></script>
+
+	</header>
+	<body ng-app='myApp' ng-cloak ng-controller='ctrlMain' style="background: none;">
+	<!-- TOOLBAR -->
+		<div style="height: 4%">
+		    <md-toolbar class="md-hue-2" style = "background-color:#263238;">
+		    	<div style="display: inline-flex;" class = "md-toolbar-tools" layout-padding>
+			        <div id='logo_div'>
+			        	<a href="/"><img src="/static/img/logo-pirelli-dsa.png" /></a>
+			        </div>
+			        <div id="tools">
+			        	<a href="/report/"><md-button id='button_home'>report</md-button></a>
+			        	<a href="/about"><md-button id='button' ng-disabel='True'>about</md-button></a>
+			        	<a href="/"><md-button id='button'>home</md-button></a>
+			        </div>
+			        <div id="user_div" >
+			        	<h5 style="text-align:right;">{{last_update}}</h5>
+			        </div>
+		      	</div>
+		    </md-toolbar>
+		</div>
+	<!-- TOOLBAR END -->
+	
+	<!-- CONTENT -->
+		<div style="width: 90%; height: 65%; margin-left: 5%; margin-right: 5%; margin-top: 50px; background-color: rgb(236,239,241);">
+			<center><img style="width: 250px; height: 250px; padding-top: 3%; padding-bottom: 3%;" src="../static/img/green_check.png"></center>
+			<h1 style="color: black; text-align: center;"> ENVIADO COM SUCESSO </h1>
+			<h4 style="color: black; text-align: center;">Equipe Digital Campinas ira avaliar a sua mensagem para melhorar nossos aplicativos</h4>
+			<h4 style="color: black; text-align: center;">Você sera redirecionado em 10 segundos</h4>
+			<center style='padding-bottom: 20px;'><a href="/"><md-button style='color:white; background: #47d147;'>VOLTAR PARA HOME PAGE</md-button></a></center>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+#logo_div{
+	display: inline-flex;
+	width: 20%;
+	height: 100%;
+	/*border: 1px solid red;*/
+}
+#logo_img{
+	/*width: 100%;
+	height: 100%;*/
+}
+#tools{
+	float: right;
+	margin-left: 2%;
+	width: 65%;
+	height: 90%;
+	margin-bottom: 1%;
+	/*border: 1px solid red;*/
+}
+
+#button{
+	font-size: 20px;
+	float: right;
+	color: rgb(255, 255, 255);
+}
+#button_home{
+	font-size: 20px;
+	float: right;
+	color: #ffffff;
+}
+
+#user_div{
+	float: right;
+	width: 13%;
+	/*border: 1px solid red;*/
+}

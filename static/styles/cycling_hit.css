@@ -1,0 +1,9 @@
+#content{
+    background-color: rgb(80,80,80);
+    width: 50%;
+}
+html, body{
+    background-image: url(../../static/img/bg.png)
+}
+md-select::-webkit-input-placeholder {
+    color: black;}

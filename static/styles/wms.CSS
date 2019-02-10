@@ -1,0 +1,112 @@
+html, body{
+	background-image: url(../../static/img/bg.png)
+}
+md-select{
+	color: black;
+}
+
+b{
+	text-align:center;
+	color:BLACK;
+}
+table {
+	
+	width: 100%;
+	border-collapse: collapse;
+
+}
+#content{
+	margin-top: 2.7%;
+}
+th {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	width: 19%;
+	padding: 15px;
+	background-color:#222b30;
+	color: white;
+}
+td {
+	font-size: 15px;
+		text-align: center;
+		width: 19%;
+    padding: 8px;
+    color: white;
+}
+tr:nth-child(even).zig {
+	background-color: #222b30;
+}
+tr:nth-child(odd).zig {
+    background-color: #263238;
+}
+
+#second{
+	background-color: rgb(224, 224, 41);
+	color: rgba(5, 5, 5, 0.856)
+}
+div.progressbar {
+	background-color: rgb(224, 224, 41);
+}
+h1.h1{
+	font-family: Gotham-XLight;
+	font-size:35px;
+}
+
+.btn:focus, .btn::-moz-focus-inner{
+	outline:none;
+	border:none;
+  }
+  .btn{
+	width:350px;
+	height:180px;
+	font-family: arial;
+	font-size:14px;
+	text-transform: uppercase;
+	font-weight:700;
+	border:none;
+	padding:10px;
+	cursor: pointer;
+	display:inline-block;
+	text-decoration: none;
+	margin-left:1%;
+  }
+  .btn-green{
+	background:#dbe0e2;
+	color:black;
+
+  }
+  .btn-green:hover{
+	background:#bfc2c4;
+
+  }
+  .btn-purple{
+	background:purple;
+	color:#fff;
+	box-shadow:0 5px 0 #670167;
+  }
+  .btn-purple:hover{
+	background:#670167;
+	box-shadow:0 5px 0 #470047;
+  }
+  .btn-red{
+	background:red;
+	color:#fff;
+	box-shadow:0 5px 0 #d20000;
+  }
+  .btn-red:hover{
+	background:#d20000;
+	box-shadow:0 5px 0 #b00000;
+  }
+  .btn-green:active, .btn-purple:active, .btn-red:active{
+	position:relative;
+	top:5px;
+	box-shadow:none;
+	}
+	.md-radio-button{
+		color:black;
+
+	}
+	#True{
+		background-color: #e076765b
+	}
